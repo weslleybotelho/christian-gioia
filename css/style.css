@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;500;600&family=Red+Hat+Display:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -52,7 +53,7 @@
 }
 
 .color-gray {
-  color: #7c7c7d;
+  color: #646465;
 }
 
 .color-red {
@@ -2501,7 +2502,8 @@ footer {
 }
 
 .h0 {
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 80px;
   line-height: 120%;
   font-weight: 400;
@@ -2509,7 +2511,8 @@ footer {
 }
 @media screen and (max-width: 960px) {
   .h0 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 40px;
     line-height: 120%;
     font-weight: 400;
@@ -2518,7 +2521,8 @@ footer {
 }
 @media screen and (max-width: 340px) {
   .h0 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 24px;
     line-height: 120%;
     font-weight: 400;
@@ -2529,14 +2533,16 @@ footer {
 h1 {
   color: #1a1c15;
   z-index: 5;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 72px;
   line-height: 110%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 52px;
     line-height: 110%;
     font-weight: 400;
@@ -2544,7 +2550,8 @@ h1 {
 }
 @media screen and (max-width: 340px) {
   h1 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 48px;
     line-height: 120%;
     font-weight: 400;
@@ -2553,14 +2560,16 @@ h1 {
 
 h2 {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 64px;
   line-height: 110%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 40px;
     line-height: 120%;
     font-weight: 400;
@@ -2568,7 +2577,8 @@ h2 {
 }
 @media screen and (max-width: 340px) {
   h2 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 36px;
     line-height: 120%;
     font-weight: 400;
@@ -2577,14 +2587,16 @@ h2 {
 
 h3 {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 48px;
   line-height: 120%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 32px;
     line-height: 120%;
     font-weight: 400;
@@ -2592,7 +2604,8 @@ h3 {
 }
 @media screen and (max-width: 340px) {
   h3 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 28px;
     line-height: 130%;
     font-weight: 400;
@@ -2601,14 +2614,16 @@ h3 {
 
 h4 {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 32px;
   line-height: 120%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 28px;
     line-height: 130%;
     font-weight: 400;
@@ -2616,7 +2631,8 @@ h4 {
 }
 @media screen and (max-width: 340px) {
   h4 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 20px;
     line-height: 140%;
     font-weight: 400;
@@ -2625,14 +2641,16 @@ h4 {
 
 h5 {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 24px;
   line-height: 140%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 20px;
     line-height: 140%;
     font-weight: 400;
@@ -2641,14 +2659,16 @@ h5 {
 
 h6 {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 18px;
   line-height: 150%;
   font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h6 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -2656,14 +2676,16 @@ h6 {
 }
 
 .h7 {
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .h7 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -2672,7 +2694,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: #9ea0a3;
+  color: #7c7c7d;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   line-height: 26px;
@@ -2778,7 +2800,7 @@ p {
 @media screen and (max-width: 960px) {
   .p5 {
     font-family: "Red Hat Display", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 300;
   }
@@ -2806,14 +2828,16 @@ span {
   color: #1a1c15;
   letter-spacing: 1px;
   text-transform: none;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 72px;
   line-height: 110%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 52px;
     line-height: 110%;
     font-weight: 400;
@@ -2854,7 +2878,8 @@ b {
 
 .h-xl {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 80px;
   line-height: 120%;
   font-weight: 400;
@@ -2862,7 +2887,8 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-xl {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 40px;
     line-height: 120%;
     font-weight: 400;
@@ -2872,7 +2898,8 @@ b {
 
 .h-l {
   color: #1a1c15;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 80px;
   line-height: 120%;
   font-weight: 400;
@@ -2880,7 +2907,8 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-l {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 40px;
     line-height: 120%;
     font-weight: 400;
@@ -2889,18 +2917,28 @@ b {
 }
 
 .hbig {
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 80px;
   line-height: 120%;
   font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .hbig {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 56px;
     line-height: 120%;
     font-weight: 400;
   }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
 
 html {
@@ -3067,7 +3105,8 @@ nav {
   background: linear-gradient(225deg, #849170 8.12%, #515d3d 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 56px rgba(92, 118, 46, 0.4);
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -3076,7 +3115,8 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -3123,7 +3163,8 @@ nav {
   background: linear-gradient(225deg, #849170 8.12%, #515d3d 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 56px rgba(92, 118, 46, 0.4);
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -3132,7 +3173,8 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-map {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -3180,7 +3222,8 @@ nav {
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   border-radius: 2px;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -3189,7 +3232,8 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-address {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -3241,7 +3285,8 @@ nav {
   background: linear-gradient(225deg, #65744d 8.12%, #a9c96b 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 32px rgba(92, 118, 46, 0.6);
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -3249,7 +3294,8 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-small {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -3266,14 +3312,16 @@ nav {
   background: transparent;
   border: 2px solid #2f3329;
   border-radius: 12px;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .btn-secondary {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -3295,14 +3343,16 @@ nav {
   border-radius: 8px;
   transform: skew(-10deg);
   position: relative;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .btn-freq {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 500;
@@ -3395,7 +3445,8 @@ a:hover {
 
 .link {
   color: #fbfff5;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 18px;
   line-height: 150%;
   font-weight: 600;
@@ -3407,7 +3458,8 @@ a:hover {
 }
 @media screen and (max-width: 960px) {
   .link {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -3520,6 +3572,11 @@ option {
     max-width: 420px;
     min-width: 300px;
   }
+}
+
+button {
+  text-decoration: none;
+  border: none;
 }
 
 .button-plus,
@@ -3848,14 +3905,16 @@ select{
   border-bottom: 2px solid #1a1c15;
   transition: 0.7s ease;
   color: #f2f7e9;
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
   font-size: 18px;
   line-height: 150%;
   font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .accordion-button {
-    font-family: "Italiana", sans-serif;
+    font-family: "Lora", serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;

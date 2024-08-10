@@ -1,9 +1,13 @@
 // Typography of project
 
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;500;600&family=Red+Hat+Display:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 @mixin typeface-1($size, $device: desktop) {
-  font-family: "Italiana", sans-serif;
+  font-family: "Lora", serif;
+  font-style: normal;
+  // font-family: "Italiana", sans-serif;
 
   @if $size == hbig and $device == desktop {
     font-size: 80px;
@@ -156,7 +160,7 @@
     line-height: 20px;
     font-weight: 300;
   } @else if $size == p5 and $device == mobile {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 300;
   }
@@ -248,7 +252,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: $gray-7;
+  color: $gray-5;
   @include typeface-2(p3, desktop);
   @include responsive(s) {
     @include typeface-2(p3, mobile);
@@ -382,4 +386,12 @@ b {
   @include responsive(s) {
     @include typeface-1(hbig, mobile);
   }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
 }

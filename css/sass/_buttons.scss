@@ -528,6 +528,11 @@ option {
   }
 }
 
+button {
+  text-decoration: none;
+  border: none;
+}
+
 .button-plus,
 .button-minus {
   background-color: $secondary-dark;

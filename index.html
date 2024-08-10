@@ -94,7 +94,7 @@
     <!--============ HERO ============-->
     <!--==============================-->
     <div class="relative hidden pt-5 pb-0">
-      <div class="bg-hero">
+      <div class="bg-hero" style="z-index: -100">
         <img src="svg/bg-top.png" alt="" class="bg-1" />
         <img src="svg/bg-bottom.png" alt="" class="bg-2" />
       </div>
@@ -104,13 +104,13 @@
           <div class="grid-3 disappear"></div>
           <div class="grid-6">
             <!-- <h6 class="h7 uppercase color-gradient line-hero">a new age</h6> -->
-            <div class="">
+            <div class="" style="z-index: 1000">
               <h1 class="color-black">
                 Christian & <br />
                 Gioia
               </h1>
               <div></div>
-              <h2 class="mt-2">02 / 08 / 2025</h2>
+              <h2 class="mt-2">31 / 07 / 2025</h2>
               <h3 class="mt-2">DATE DE MARRIAGE</h3>
             </div>
             <!-- 
@@ -132,10 +132,7 @@
             </div> -->
             <img src="svg/image-1.png" alt="" class="mt-4" style="" />
             <p class="mt-3 text-center color-black">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Reprehenderit quas in tempore nesciunt? Sunt placeat quisquam
-              suscipit, iste quasi ipsum tempore et ex unde soluta nihil,
-              aperiam officia, saepe tenetur.
+              Nous sommes profondément reconnaissants de vous avoir à nos côtés pour célébrer notre amour. Vous trouverez ci-dessous toutes les informations nécessaires pour notre mariage.
             </p>
           </div>
           <div class="grid-3 disappear"></div>
@@ -164,11 +161,15 @@
             <h5>Dîner</h5>
 
             <h4 class="uppercase text-center mt-6">Emplacement</h4>
-            <h5 class="mt-2">Avenue des celtes, 19</h5>
-            <h5>Sicilly, Italy</h5>
-            <a href="#" class="btn-map mt-3"
+            <h5 class="mt-2">Via Panoramica, 100</h5>
+            <h5>92010 Realmonte AG, Italy</h5>
+            <a
+              href="https://www.google.com/maps/place/Via+Panoramica,+100,+92010+Realmonte+AG,+Italy/@37.2952253,13.4645041,17z/data=!3m1!4b1!4m6!3m5!1s0x131a794c2279aef3:0xb88cb99816a5950b!8m2!3d37.2952211!4d13.4670844!16s%2Fg%2F11c2mpckwy?entry=ttu"
+              class="btn-map mt-3"
+              target="_blank"
               ><p class="color-white">CARTE</p></a
             >
+            
           </div>
 
           <div class="grid-3 disappear"></div>
@@ -179,7 +180,7 @@
     <!--==============================-->
     <!--====== DATE & MAP ======-->
     <!--==============================-->
-    <div class="relative hidden py-5">
+    <div class="relative hidden pt-5">
       <div class="bg-hero" style="z-index: -10">
         <img src="svg/lemons.png" alt="" class="mt-0 img-lemon" style="" />
         <!-- <img src="svg/bg-bottom.png" alt="" class="bg-2" /> -->
@@ -193,7 +194,7 @@
             <p class="color-black mt-2">Faites-nous savoir si vous venez</p>
             <!-- <a href="#" class="btn mt-3"><p class="color-white">RSVP</p></a> -->
             <form
-              action="https://formsubmit.co/7aaf31e9c1e59aa2047a15acd2c62b39"
+              action="https://formsubmit.co/pinheiro.christianwilliam@gmail.com"
               method="POST"
               class="flex-center-column"
             >
@@ -229,6 +230,7 @@
                   name="othersInvited"
                   placeholder="S'inscrire pour quelqu'un d'autre invité?"
                 />
+                <p>Si oui, veuillez écrire leurs noms</p>
               </div>
               <div class="row mt-2 w-100">
                 <input
@@ -244,16 +246,9 @@
                   placeholder="Une question ou un commentaire ?"
                 />
               </div>
-              <a class="btn mt-3" type="submit"
-                ><p class="color-white">RSVP</p></a
-              >
-              <!-- <button
-                class="btn mt-2 px-3"
-                type="submit"
-                style="border: none; cursor: pointer"
-              >
-                Subscribe
-              </button> -->
+              <button class="btn mt-3" type="submit"
+                ><p class="color-white">RSVP</p></
+              ></button>
             </form>
           </div>
           <div class="grid-3 disappear"></div>
@@ -262,207 +257,154 @@
     </div>
 
     <!--==============================-->
-    <!--============ É A ONDA DO FUTURO ============-->
+    <!--===== RECOMENDATION LOCATION =====-->
     <!--==============================-->
-    <section class="container" id="section-3">
+    <section class="container py-0" id="section-4">
       <div class="row">
         <div class="grid-3 disappear"></div>
         <div class="grid-6">
-          <!-- <h6 class="p2 uppercase color-black">email newsletter</h6>
-          <p class="h1 color-primary mt-3">Keep updated</p> -->
+          <h6 class="uppercase color-gradient h7">un peu d'aide pour toi</h6>
+          <div class="">
+            <h3 class="mt-1">Comment arriver et se déplacer</h3>
+            <div class="flex-start-row mt-4">
+              <img
+                src="svg/plane-line.svg"
+                class="icon"
+                alt=""
+                onload="SVGInject(this)"
+              />
+              <h6 class="bold">Aéroport de Trapani Vicenzo Florio</h6>
+              <br />
+            </div>
+            <p class="p4 text-center">A 2h10 du lieu de réception</p>
+            <div class="flex-start-row mt-4">
+              <img
+                src="svg/plane-line.svg"
+                class="icon"
+                alt=""
+                onload="SVGInject(this)"
+              />
+              <h6 class="bold">Aéroport de Palerme</h6>
+              <br />
+            </div>
+            <p class="p4 text-center">A 2h15 du lieu de réception</p>
+            <div class="flex-start-row mt-4">
+              <img
+                src="svg/plane-line.svg"
+                class="icon"
+                alt=""
+                onload="SVGInject(this)"
+              />
+              <h6 class="bold">Aéroport de Catane</h6>
+              <br />
+            </div>
+            <p class="p4 text-center">A 2h40 du lieu de réception</p>
+  
+            <div class="flex-start-row mt-4">
+              <img
+                src="svg/icon-car.svg"
+                class="icon"
+                alt=""
+                onload="SVGInject(this)"
+              />
+              <h6 class="bold">Voiture personnelle ou Voiture de location</h6>
+              <br />
+            </div>
+            <p class="p4 text-center">Moyen de transport sur place</p>
+            <div class="flex-start-row mt-1 center">
+              <img
+                src="svg/icon-alert.svg"
+                class="icon"
+                alt=""
+                onload="SVGInject(this)"
+              />
+              <p class="p4 italic text-center mt-1 color-gray">
+                Il est recommandé de ne pas dépendre des transports en commun ou
+                Taxi
+              </p>
+            </div>
+
+          </div>
+          <h3 class="mt-3">Recommendations d’accommodations</h3>
+          <div>
+            <a
+              class="people-paybank p-3 mt-5"
+              href="https://www.hoteldellavalleagrigento.it/"
+              target="_blank"
+            >
+              <img src="svg/hotel1.png" alt="" />
+            </a>
+            <a href="https://www.hoteldellavalleagrigento.it/" target="_blank">
+              <h4 class="text-center text-underline">Hotel della valle</h4>
+            </a>
+          </div>
+
+          <div>
+            <a
+              class="people-paybank p-3 mt-5"
+              href="https://hoteldeipini.org/"
+              target="_blank"
+            >
+              <img src="svg/hotel2.png" alt="" />
+            </a>
+            <a href="https://hoteldeipini.org/" target="_blank">
+              <h4 class="text-center text-underline">Hotel Dei Pini</h4>
+            </a>
+          </div>
+
+          <div>
+            <a
+              class="people-paybank p-3 mt-5"
+              href="http://scaladeiturchiresort.com/fr/"
+              target="_blank"
+            >
+              <img src="svg/hotel3.png" alt="" />
+            </a>
+            <a href="http://scaladeiturchiresort.com/fr/" target="_blank">
+              <h4 class="text-center text-underline">
+                Hotel Scala Dei Turchi Resort
+              </h4>
+            </a>
+          </div>
+
+          <div>
+            <a
+              class="people-paybank p-3 mt-5"
+              href="https://www.booking.com/hotel/it/case-vacanze-ancora.fr.html?aid=2378099&label=olr%3ACjwKCAjw_Na1BhAlEiwAM-dm7AEhe38AMy86TgXU6Pd08E-HLcDYcOg4fPT59GRtgCOz4aBNCtQvBRoCMFkQAvD_BwE&sid=f95ee925d1ef660205e9eb292bb79d7a&checkin=2024-08-16;checkout=2024-08-17;dest_id=-125538;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1723207980;srpvid=d0ae5a907acb00fc;type=total;ucfs=1&#no_availability_msg"
+              target="_blank"
+            >
+              <img src="svg/hotel4.png" alt="" />
+            </a>
+            <a href="https://www.booking.com/hotel/it/case-vacanze-ancora.fr.html?aid=2378099&label=olr%3ACjwKCAjw_Na1BhAlEiwAM-dm7AEhe38AMy86TgXU6Pd08E-HLcDYcOg4fPT59GRtgCOz4aBNCtQvBRoCMFkQAvD_BwE&sid=f95ee925d1ef660205e9eb292bb79d7a&checkin=2024-08-16;checkout=2024-08-17;dest_id=-125538;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1723207980;srpvid=d0ae5a907acb00fc;type=total;ucfs=1&#no_availability_msg" target="_blank">
+              <h4 class="text-center text-underline">Airbnb Case Vacanze</h4>
+            </a>
+          </div>
         </div>
         <div class="grid-3 disappear"></div>
       </div>
     </section>
 
     <!--==============================-->
-    <!--===== POR TRÁS DISSO SÃO PESSOAS =====-->
-    <!--==============================-->
-    <!-- <section class="container" id="section-4">
-      <div class="row">
-        <div class="grid-6">
-          <div class="people-paybank p-3">
-            <img src="svg/img1-paybank.png" alt="" />
-          </div>
-        </div>
-        <div class="grid-6">
-          <h6 class="uppercase color-gradient h7">real people</h6>
-          <h3 class="mt-1">
-            Behind all this, there is one objective:
-            <span class="color-gradient">people</span>
-          </h3>
-          <p class="mt-3">
-            Lorem ipsum dolor sit amet consectetur. Et ut tempus facilisis
-            tristique. Vitae consequat vel tortor aenean imperdiet posuere
-            neque. Sollicitudin at at volutpat scelerisque ut aliquet velit
-            tempor.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-6">
-          <div class="people-paybank p-3">
-            <img src="svg/img2-paybank.png" alt="" />
-          </div>
-          <a
-            href="#"
-            class="btn-white flex-start-row mt-4"
-            style="display: inline-block"
-          >
-            <div class="flex-start-row">
-              <img
-                src="svg/icon-instagram.svg"
-                class="icon fill-svg-green"
-                alt=""
-                onload="SVGInject(this)"
-              />
-              <h6 class="h7 mx-1">Instagram</h6>
-              <img
-                src="svg/icon-arrow-up.svg"
-                class="icon fill-svg-green"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-          </a>
-
-          <h4 class="mt-3">
-            So, follow us on<br />
-            Instagram
-          </h4>
-        </div>
-        <div class="grid-6">
-          <div class="people-paybank p-2">
-            <img src="svg/img3-paybank.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!--==============================-->
     <!--===== SUA SEGURANÇA É NOSSA PRIORIDADE =====-->
     <!--==============================-->
-    <!-- <section class="container" id="section-5">
+    <section class="container py-1" id="section-5">
       <div class="row">
-        <div class="grid-5">
-          <h6 class="uppercase color-gradient h7">investments</h6>
-          <h3 class="mt-1">
-            Your safety is ours
-            <span class="color-gradient py-1"> priority </span>
-          </h3>
-          <p class="mt-3">
-            Your security, reliability, control of your finances is the
-            Paybank's main commitment
-          </p>
+        <div class="grid-3 disappear"></div>
+        <div class="grid-6">
+          <h6 class="uppercase color-gradient h7">merci beaucoup</h6>
+          <h4 class="mt-1 text-center">
+            S'il vous plaît, faites-nous savoir si vous venez avant le <br>31/12/2024
+          </h4>
+          <div class="flex-center">
+            <a class="btn mt-3" type="button" onClick="document.getElementById('section-2').scrollIntoView();"
+            ><p class="color-white">RSVP</p></a>
 
-          <div class="mt-3 pb-4 bb-gray hidden flex-start-row">
-            <div class="bg-icon-white icon-click mr-1">
-              <img
-                src="svg/icon-smartphone.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-
-            <div class="bg-icon-white icon-click mr-1">
-              <img
-                src="svg/icon-fingerprint.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-
-            <div class="bg-icon-white icon-click mr-1">
-              <img
-                src="svg/icon-card.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-
-            <div class="bg-icon-white icon-click mr-1">
-              <img
-                src="svg/icon-shield.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-          </div>
-
-          <div class="mt-3 relative" style="min-height: 180px">
-            <div class="text-click">
-              <h4>Card control via the App</h4>
-              <p class="mt-2">
-                Lost your card or suspect it was stolen? Lock and unlock the
-                card via the app in seconds.
-              </p>
-            </div>
-
-            <div class="text-click">
-              <h4>Protected access</h4>
-              <p class="mt-2">
-                An extra layer of security to access the application with facial
-                recognition, fingerprint or password.
-              </p>
-            </div>
-
-            <div class="text-click">
-              <h4>Support</h4>
-              <p class="mt-2">
-                Our team is available 24 hours per day to help you with any
-                issue.
-              </p>
-            </div>
-
-            <div class="text-click">
-              <h4>Secure transactions</h4>
-              <p class="mt-2">
-                Enter your password to confirm transactions and report any
-                movement not authorized by you.
-              </p>
-            </div>
           </div>
         </div>
-        <div class="grid-1 disappear"></div>
-        <div class="grid-6 relative" style="min-height: 260px">
-          <img
-            src="svg/fig5-paybank.png"
-            class="img-paybank"
-            alt=""
-            loading="lazy"
-          />
-          <img
-            src="svg/fig6-paybank.png"
-            class="img-paybank"
-            alt=""
-            loading="lazy"
-          />
-          <img
-            src="svg/fig7-paybank.png"
-            class="img-paybank"
-            alt=""
-            loading="lazy"
-          />
-          <img
-            src="svg/fig8-paybank.png"
-            class="img-paybank"
-            alt=""
-            loading="lazy"
-          />
-          <img
-            src="svg/pattern.svg"
-            class="pattern-paybank"
-            alt=""
-            loading="lazy"
-            onload="SVGInject(this)"
-          />
+        <div class="grid-3 disappear">
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!--==============================-->
     <!--===== INVESTIMENTOS =====-->
