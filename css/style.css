@@ -1860,6 +1860,13 @@ footer {
   z-index: -1;
 }
 
+.img-hotel {
+  max-width: 250px;
+  max-height: 250px;
+  border: 4px;
+  border-radius: 12px;
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
@@ -3743,7 +3750,7 @@ select{
 .screen-loading {
   width: 100%;
   height: 100vh;
-  background-color: #060802;
+  background-color: #fbfff5;
   z-index: 999;
   position: fixed;
   top: 0;
@@ -3754,13 +3761,42 @@ select{
   pointer-events: none;
 }
 
-.logo-paybank {
-  width: 80px;
-  height: 80px;
+.wedding-logo {
+  width: 320px;
+  height: 120px;
   position: relative;
-  transform: translate3d(5px, 0, 0);
 }
 
+#letter_c {
+  opacity: 0;
+  animation: logo1 1s ease 0.5s forwards;
+}
+
+#letter_g {
+  opacity: 0;
+  animation: logo2 1s ease 0.5s forwards;
+}
+
+@keyframes logo1 {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-30%, 0%);
+  }
+}
+@keyframes logo2 {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(30%, 0%);
+  }
+}
 .logo-part-1 {
   position: absolute;
   top: 20%;
@@ -3814,8 +3850,8 @@ select{
   }
 }
 .bar-loader {
-  width: 128px;
-  height: 1px;
+  width: 160px;
+  height: 2px;
   background-color: rgba(255, 255, 255, 0.1);
   position: relative;
 }
@@ -3824,7 +3860,7 @@ select{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #849170;
+  background-color: #b4ae4f;
   width: 50%;
   height: 100%;
   animation: bar-loader 4s ease forwards;
