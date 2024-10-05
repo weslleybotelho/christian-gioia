@@ -186,37 +186,26 @@ document.addEventListener("DOMContentLoaded", () => {
       ease: "power4.out",
     })
     .from(
-      ".bg-1",
-      {
-        duration: 1,
-        opacity: 1,
-        x: -200,
-        stagger: { each: 0.1 },
-        ease: "power4.out",
-      },
-      "-=1.5"
-    )
-    .from(
-      ".bg-2",
-      {
-        duration: 1,
-        opacity: 1,
-        x: 200,
-        stagger: { each: 0.1 },
-        ease: "power4.out",
-      },
-      "-=1.5"
-    )
-    .from(
-      ".hero div",
+      ".img-hero",
       {
         duration: 3,
+        opacity: 0,
+        // x: 0,
+        stagger: { each: 0.1 },
+        ease: "power4.out",
+      },
+      "-=1.0"
+    )
+    .from(
+      "#hero div",
+      {
+        duration: 2,
         opacity: 1,
         y: 200,
         stagger: { each: 0.1 },
         ease: "power4.out",
       },
-      "-=2.0"
+      "-=3.0"
     );
 
   // loading section scroll
