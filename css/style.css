@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;500;600&family=Red+Hat+Display:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -50,6 +51,10 @@
   padding: 3px 8px;
   border-radius: 2px;
   color: #060802;
+}
+
+.color-title-blue {
+  color: #204dab;
 }
 
 .color-gray {
@@ -533,9 +538,15 @@
 }
 .img-hero {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100vh;
+  transform: translate(0%, -10%);
+}
+@media screen and (max-width: 960px) {
+  .img-hero {
+    transform: translate(0%, -20%);
+  }
 }
 
 .bg-1 {
@@ -621,7 +632,7 @@
 }
 @media screen and (max-width: 960px) {
   .hero {
-    height: auto;
+    height: 70vh;
   }
 }
 
@@ -1864,7 +1875,7 @@ footer {
   max-width: 250px;
   max-height: 250px;
   border: 4px;
-  border-radius: 12px;
+  border-radius: 6px;
 }
 
 .s-0 {
@@ -2509,7 +2520,7 @@ footer {
 }
 
 .h0 {
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2518,7 +2529,7 @@ footer {
 }
 @media screen and (max-width: 960px) {
   .h0 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2528,7 +2539,7 @@ footer {
 }
 @media screen and (max-width: 340px) {
   .h0 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 24px;
     line-height: 120%;
@@ -2540,7 +2551,7 @@ footer {
 h1 {
   color: #1a1c15;
   z-index: 5;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 72px;
   line-height: 110%;
@@ -2548,7 +2559,7 @@ h1 {
 }
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 52px;
     line-height: 110%;
@@ -2557,7 +2568,7 @@ h1 {
 }
 @media screen and (max-width: 340px) {
   h1 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 48px;
     line-height: 120%;
@@ -2567,7 +2578,7 @@ h1 {
 
 h2 {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 64px;
   line-height: 110%;
@@ -2575,7 +2586,7 @@ h2 {
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2584,7 +2595,7 @@ h2 {
 }
 @media screen and (max-width: 340px) {
   h2 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 36px;
     line-height: 120%;
@@ -2594,7 +2605,7 @@ h2 {
 
 h3 {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 120%;
@@ -2602,7 +2613,7 @@ h3 {
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 32px;
     line-height: 120%;
@@ -2611,7 +2622,7 @@ h3 {
 }
 @media screen and (max-width: 340px) {
   h3 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 28px;
     line-height: 130%;
@@ -2621,7 +2632,7 @@ h3 {
 
 h4 {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 120%;
@@ -2629,7 +2640,7 @@ h4 {
 }
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 28px;
     line-height: 130%;
@@ -2638,7 +2649,7 @@ h4 {
 }
 @media screen and (max-width: 340px) {
   h4 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 140%;
@@ -2648,7 +2659,7 @@ h4 {
 
 h5 {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 24px;
   line-height: 140%;
@@ -2656,7 +2667,7 @@ h5 {
 }
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 140%;
@@ -2666,7 +2677,7 @@ h5 {
 
 h6 {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
@@ -2674,7 +2685,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   h6 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -2683,7 +2694,7 @@ h6 {
 }
 
 .h7 {
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -2691,7 +2702,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   .h7 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -2835,7 +2846,7 @@ span {
   color: #1a1c15;
   letter-spacing: 1px;
   text-transform: none;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 72px;
   line-height: 110%;
@@ -2843,7 +2854,7 @@ span {
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 52px;
     line-height: 110%;
@@ -2885,7 +2896,7 @@ b {
 
 .h-xl {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2894,7 +2905,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-xl {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2905,7 +2916,7 @@ b {
 
 .h-l {
   color: #1a1c15;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2914,7 +2925,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-l {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2924,7 +2935,7 @@ b {
 }
 
 .hbig {
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2932,7 +2943,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .hbig {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 56px;
     line-height: 120%;
@@ -2954,7 +2965,7 @@ html {
 
 body {
   width: 100%;
-  background-color: #fbfff5;
+  background-color: #f4f4f4;
 }
 body::-webkit-scrollbar {
   padding-right: 4px;
@@ -3112,7 +3123,7 @@ nav {
   background: linear-gradient(225deg, #849170 8.12%, #515d3d 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 56px rgba(92, 118, 46, 0.4);
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3122,7 +3133,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3170,7 +3181,7 @@ nav {
   background: linear-gradient(225deg, #849170 8.12%, #515d3d 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 56px rgba(92, 118, 46, 0.4);
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3180,7 +3191,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-map {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3229,7 +3240,7 @@ nav {
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   border-radius: 2px;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3239,7 +3250,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-address {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3292,7 +3303,7 @@ nav {
   background: linear-gradient(225deg, #65744d 8.12%, #a9c96b 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 32px rgba(92, 118, 46, 0.6);
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3301,7 +3312,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-small {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3319,7 +3330,7 @@ nav {
   background: transparent;
   border: 2px solid #2f3329;
   border-radius: 12px;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3327,7 +3338,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-secondary {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3350,7 +3361,7 @@ nav {
   border-radius: 8px;
   transform: skew(-10deg);
   position: relative;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3358,7 +3369,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-freq {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3452,7 +3463,7 @@ a:hover {
 
 .link {
   color: #fbfff5;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
@@ -3465,7 +3476,7 @@ a:hover {
 }
 @media screen and (max-width: 960px) {
   .link {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3941,7 +3952,7 @@ select{
   border-bottom: 2px solid #1a1c15;
   transition: 0.7s ease;
   color: #f2f7e9;
-  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
@@ -3949,7 +3960,7 @@ select{
 }
 @media screen and (max-width: 960px) {
   .accordion-button {
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;

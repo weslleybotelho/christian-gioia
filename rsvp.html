@@ -1,0 +1,126 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#060802" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="keywords"
+      content="wedding, marriage, sicily, css, development web, desenvolvimento web, ux, ui, uxui"
+    />
+    <meta name="author" content="Weslley Botelho" />
+    <meta name="title" content="Christian & Gioia" />
+
+    <!--============ CSS ============-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="svg/bg-top.png" />
+
+    <!--============ Primary Meta Tags ============-->
+    <title>Christian & Gioia</title>
+    <meta name="title" content="Christian & Gioia" />
+    <meta name="description" content="Christian & Gioia" />
+
+    <!--========== Open Graph / Facebook ===========-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:title" content="Christian & Gioia" />
+    <meta property="og:description" content="Christian & Gioia" />
+    <meta property="og:image" content="svg/lemons.png" />
+
+    <!--=========== Twitter ===============-->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="#" />
+    <meta property="twitter:title" content="Christian & Gioia" />
+    <meta property="twitter:description" content="Christian & Gioia" />
+    <meta property="twitter:image" content="svg/lemons.png" />
+
+    <!--============ SCRIPTS ============-->
+    <script src="js/svg-inject.min.js"></script>
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+  </head>
+  <body>
+        <!--==============================-->
+    <!--====== DATE & MAP ======-->
+    <!--==============================-->
+    <div class="relative hidden pt-5">
+        <div class="bg-hero" style="z-index: -10" id="lemons">
+          <img src="svg/lemons.png" alt="" class="mt-0 img-lemon" style="" />
+          <!-- <img src="svg/bg-bottom.png" alt="" class="bg-2" /> -->
+        </div>
+        <section class="container pb-0" id="section-2">
+          <div class="row">
+            <div class="grid-3 disappear"></div>
+            <div class="grid-6 flex-center-column">
+              <h4 class="uppercase text-center mt-2">RSVP</h4>
+              <h4 class="mt-2">31.07.2025</h4>
+              <p class="color-black mt-2">Faites-nous savoir si vous venez</p>
+              <!-- <a href="#" class="btn mt-3"><p class="color-white">RSVP</p></a> -->
+              <form
+                action="https://formsubmit.co/pinheiro.christianwilliam@gmail.com"
+                method="POST"
+                class="flex-center-column"
+              >
+                <div class="row mt-2 flex-space w-100">
+                  <input
+                    type="text"
+                    name="prenom"
+                    placeholder="Prénom"
+                    required
+                  />
+                  <input
+                    type="text"
+                    name="nom-famille"
+                    placeholder="Nom de famille"
+                    required
+                    class="ml-3"
+                  />
+                </div>
+                <div class="row mt-2 w-100">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="row mt-2 w-100">
+                  <input type="phone" name="phone" placeholder="Phone" required />
+                </div>
+                <div class="row mt-2 w-100">
+                  <input
+                    type="text"
+                    name="othersInvited"
+                    placeholder="S'inscrire pour quelqu'un d'autre invité?"
+                  />
+                  <p>Si oui, veuillez écrire leurs noms</p>
+                </div>
+                <div class="row mt-2 w-100">
+                  <input
+                    type="text"
+                    name="dietary"
+                    placeholder="Avez vous des restrictions alimentaires ?"
+                  />
+                </div>
+                <div class="row mt-2 w-100">
+                  <input
+                    type="text"
+                    name="otherQuestions"
+                    placeholder="Une question ou un commentaire ?"
+                  />
+                </div>
+                <button class="btn mt-3" type="submit"
+                  ><p class="color-white">RSVP</p></
+                ></button>
+              </form>
+            </div>
+            <div class="grid-3 disappear"></div>
+          </div>
+        </section>
+      </div>
+  </body>
+</html>
