@@ -1,71 +1,3 @@
-/*=================CDI CALCULATOR===========================*/
-// let MoneyInvestment = document.querySelector(".money-investment").innerText;
-// let TimeInvestment = document.querySelector(".time-investment").innerText;
-
-// const buttonMinusMoney = document.querySelector(".button-minus-money");
-// const buttonPlusMoney = document.querySelector(".button-plus-money");
-// const buttonMinusTime = document.querySelector(".button-minus-time");
-// const buttonPlusTime = document.querySelector(".button-plus-time");
-
-// const tax = 1.0794 / 100;
-
-// const resultTax = () => {
-//   return MoneyInvestment * Math.pow(1 + tax, TimeInvestment);
-// };
-
-// const updateResult = () => {
-//   let result = resultTax();
-
-//   let finalValue = result
-//     .toFixed(2)
-//     .toLocaleString("en", { style: "currency", currency: "EUR" });
-//   document.querySelector(".result-investment").innerText = finalValue;
-// };
-
-// buttonMinusMoney.addEventListener("click", () => {
-//   if (MoneyInvestment <= 200) {
-//     MoneyInvestment = parseFloat(MoneyInvestment);
-//   } else {
-//     MoneyInvestment = parseFloat(MoneyInvestment) - 200;
-//   }
-
-//   document.querySelector(".money-investment").innerText = MoneyInvestment;
-
-//   updateResult();
-// });
-
-// buttonPlusMoney.addEventListener("click", () => {
-//   MoneyInvestment = parseFloat(MoneyInvestment) + 200;
-
-//   document.querySelector(".money-investment").innerText = MoneyInvestment;
-
-//   updateResult();
-// });
-
-// buttonMinusTime.addEventListener("click", () => {
-//   if (TimeInvestment <= 1) {
-//     TimeInvestment = parseFloat(TimeInvestment);
-//   } else {
-//     TimeInvestment = parseFloat(TimeInvestment) - 1;
-//   }
-
-//   document.querySelector(".time-investment").innerText = TimeInvestment;
-
-//   updateResult();
-// });
-
-// buttonPlusTime.addEventListener("click", () => {
-//   if (TimeInvestment <= 1) {
-//     TimeInvestment = parseFloat(TimeInvestment);
-//   } else {
-//     TimeInvestment = parseFloat(TimeInvestment) + 1;
-//   }
-
-//   document.querySelector(".time-investment").innerText = TimeInvestment;
-
-//   updateResult();
-// });
-
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 
 function scrollHeader() {
@@ -83,94 +15,6 @@ function scrollHeader() {
 
 window.addEventListener("scroll", scrollHeader);
 
-/*============ ICON CLICKS ==============*/
-// const icons = document.querySelectorAll(".icon-click");
-// const textsClick = document.querySelectorAll(".text-click");
-
-// const imgPaybank = document.querySelectorAll(".img-paybank");
-// const arrayIcons = Array.from(icons);
-// console.log(icons);
-// console.log(textsClick);
-// console.log(imgPaybank);
-
-// textsClick.forEach((text) => {
-//   text.style.opacity = "0";
-// });
-
-// var index = 0;
-
-// const resetIcons = (element) => {
-//   arrayIcons.forEach((icon) => {
-//     icon.classList.remove("bg-icon-active");
-//   });
-
-//   element.classList.add("bg-icon-active");
-// };
-
-// const resetImages = (index) => {
-//   imgPaybank.forEach((image) => {
-//     image.style.opacity = "0";
-//   });
-
-//   if (index == 0) {
-//     imgPaybank[index].style.opacity = "1";
-//   } else if (index == 1) {
-//     imgPaybank[index].style.opacity = "1";
-//   } else if (index == 2) {
-//     imgPaybank[index].style.opacity = "1";
-//   } else if (index == 3) {
-//     imgPaybank[index].style.opacity = "1";
-//   }
-// };
-
-// const resetTexts = (index) => {
-//   textsClick.forEach((text) => {
-//     text.style.opacity = "0";
-//   });
-
-//   if (index == 0) {
-//     textsClick[index].style.opacity = "1";
-//   } else if (index == 1) {
-//     textsClick[index].style.opacity = "1";
-//   } else if (index == 2) {
-//     textsClick[index].style.opacity = "1";
-//   } else if (index == 3) {
-//     textsClick[index].style.opacity = "1";
-//   }
-// };
-
-/*=====================================*/
-/*=========== DISPARAR POR CLIQUE ==============*/
-/*=====================================*/
-
-// arrayIcons.forEach((element, index) => {
-//   element.addEventListener("click", () => {
-//     resetIcons(element);
-
-//     resetImages(index);
-
-//     resetTexts(index);
-//   });
-// });
-
-/*=====================================*/
-/*========= IR TROCANDO SOZINHO ========*/
-/*=====================================*/
-// const changeSlider = (index) => {
-//   resetIcons(arrayIcons[index]);
-
-//   resetImages(index);
-
-//   resetTexts(index);
-// };
-
-// let i = 0;
-// setInterval(() => {
-//   changeSlider(i);
-//   i++;
-
-//   if (i === 4) i = 0;
-// }, 4000);
 /*--=========== GSAP SCROLLTRIGGER ============- */
 
 gsap.registerPlugin(ScrollTrigger);
@@ -190,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         duration: 3,
         opacity: 0,
-        // x: 0,
+        x: 300,
         stagger: { each: 0.1 },
         ease: "power4.out",
       },
@@ -210,19 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // loading section scroll
 
-  gsap.from("#lavander", {
-    x: 200,
-    opacity: 1,
-    ease: "none",
-    // stagger: { each: 0.2 },
-    duration: 1,
-    scrollTrigger: {
-      trigger: "#lavander",
-      start: "top 80%",
-      end: "top 50%",
-    },
-  });
-
   gsap.from("#section-1 > div", {
     y: 200,
     opacity: 0,
@@ -231,19 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
     duration: 3,
     scrollTrigger: {
       trigger: "#section-1",
-      start: "top 80%",
-      end: "top 50%",
-    },
-  });
-
-  gsap.from("#lemons", {
-    y: 200,
-    opacity: 0,
-    ease: "none",
-    // stagger: { each: 0.2 },
-    duration: 1,
-    scrollTrigger: {
-      trigger: "#section-2",
       start: "top 80%",
       end: "top 50%",
     },
@@ -296,45 +114,6 @@ document.addEventListener("DOMContentLoaded", () => {
     duration: 3,
     scrollTrigger: {
       trigger: "#section-5",
-      start: "top 80%",
-      end: "top 50%",
-    },
-  });
-
-  gsap.from("#section-6 > div", {
-    y: 200,
-    opacity: 0,
-    ease: "power4.out",
-    stagger: { each: 0.1 },
-    duration: 3,
-    scrollTrigger: {
-      trigger: "#section-6",
-      start: "top 80%",
-      end: "top 50%",
-    },
-  });
-
-  gsap.from("#section-7 > div", {
-    y: 200,
-    opacity: 0,
-    ease: "power4.out",
-    stagger: { each: 0.1 },
-    duration: 3,
-    scrollTrigger: {
-      trigger: "#section-7",
-      start: "top 80%",
-      end: "top 50%",
-    },
-  });
-
-  gsap.from("#section-8 > div", {
-    y: 200,
-    opacity: 0,
-    ease: "power4.out",
-    stagger: { each: 0.1 },
-    duration: 3,
-    scrollTrigger: {
-      trigger: "#section-8",
       start: "top 80%",
       end: "top 50%",
     },

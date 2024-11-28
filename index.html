@@ -64,7 +64,7 @@
     <!--==============================-->
     <!--============ HERO ============-->
     <!--==============================-->
-    <div class="relative hidden" >
+    <div class="relative hidden" id="bg-hero">
       <!-- <div class="bg-hero" style="z-index: -100">
           <img src="svg/bg-top.png" alt="" class="bg-1" />
           <img src="svg/bg-bottom.png" alt="" class="bg-2" />
@@ -74,48 +74,54 @@
         <img src="svg/background-home.jpeg" alt="" class="img-hero"/>
       </div>
 
-      <section class="container pb-0 hero pt-1">
+      <div class="container pb-0 hero pt-1">
         <div class="row">
           <div class="grid-3 disappear"></div>
           <div class="grid-6" style="transform: translate(25%, -15%);">
           </div>
           <div class="grid-3 disappear"></div>
         </div>
-      </section>
+      </div>
     </div>
 
-    <section id="hero">
-      <div class="container p-0 mt-0">
+    <div id="hero">
+      <div class="container p-0 mt-0 px-4">
         <div class="row">
           <div class="grid-3 disappear"></div>
           <div class="grid-6 mt-0">
-              <h1  class="text-center color-title-blue">
-                Christian & <br />
-                Gioia
+            <p class="text-center">ENSEMBLE AVEC LEUR FAMILLE</p>
+              <h1  class="text-center nomes mt-2">
+                Gioia <br> & <br />
+                Christian
               </h1>
-              <h2 class="mt-2 text-center color-title-blue">31.07.2025</h2>
-            <p class="mt-2">
-              C’est avec une immense joie que nous vous invitons à notre mariage qui se déroulera en Sicile le 31 juillet 2025. Quand le Brésil et la Sicile se rencontrent, il était impossible de ne pas choisir un lieu où la chaleur et le soleil sont également au rendez-vous.
-            </p>
+              <p class="text-center mt-2">VOUS INVITENT À LEUR MARIAGE LE</p>
+              <div class="flex-center mt-3">
+                <h3 class="inter">JEUDI</h3>
+                <div class="px-3 flex-center-column">
+                  <h3 class="kings-regular">31</h3>
+                  <p class="cormorant">JUILLET</p>
+                </div>
+                <h3 class="inter">2025</h3>
+              </div>
+
           </div>
           <div class="grid-3 disappear"></div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!--==============================-->
     <!--============ TIMMING AND LOCATION ============-->
     <!--==============================-->
     <div class="relative hidden py-0" >
-      <!-- <div class="bg-hero" style="z-index: -10" id="lavander"> -->
-        <!-- <img src="svg/bg-top.png" alt="" class="bg-1 mt-7" /> -->
-           <!-- <img src="svg/lavender.png" alt="" class="timming-img" /> -->
-      <!-- </div> -->
       <div class="container py-0" id="section-1">
         <div class="row">
           <div class="grid-2 disappear"></div>
           <div class="grid-8 bt-gray">
-            <h6 class="text-center color-black">Ci-dessous, vous trouverez toutes les informations nécessaires afin de vous organiser au mieux pour être présent au mariage.</h6>
+            <p class="mt-3 px-1 p1 text-center">
+              C’est avec une immense joie que nous vous invitons à notre mariage qui se déroulera en Sicile le 31 juillet 2025. Quand le Brésil et la Sicile se rencontrent, il était impossible de ne pas choisir un lieu où la chaleur et le soleil sont également au rendez-vous.
+            </p>
+            <!-- <h6 class="text-center color-black">Ci-dessous, vous trouverez toutes les informations nécessaires afin de vous organiser au mieux pour être présent au mariage.</h6> -->
           </div>
           <div class="grid-2 disappear"></div>
         </div>
@@ -123,18 +129,18 @@
           <div class="grid-3 disappear"></div>
           <div class="grid-3 flex-center-column">
    
-            <h4 class="uppercase text-center mt-2 color-title-blue">Horaire</h4>
-            <h4 class="mt-2">16:30</h4>
+            <h4 class="uppercase text-center mt-2">Horaire</h4>
+            <h4 class="mt-2 nomes">15H30</h4>
             <h5>Cérémonie</h5>
-            <h4 class="mt-2">18:00</h4>
+            <h4 class="mt-2 nomes">18H00</h4>
             <h5>Apéritif</h5>
-            <h4 class="mt-2">20:30</h4>
+            <h4 class="mt-2 nomes">20H30</h4>
             <h5>Dîner</h5>
           </div>
           <div class="grid-4 flex-center-column">
-            <h4 class="uppercase text-center mt-2 color-title-blue">Emplacement</h4>
+            <h4 class="uppercase text-center mt-2">Emplacement</h4>
             <h5 class="mt-2">Via Panoramica, 100</h5>
-            <h5>92010 Realmonte AG, Italy</h5>
+            <h5 class="">92010 Realmonte AG, Italy</h5>
             <a
               href="https://www.google.com/maps/place/Via+Panoramica,+100,+92010+Realmonte+AG,+Italy/@37.2952253,13.4645041,17z/data=!3m1!4b1!4m6!3m5!1s0x131a794c2279aef3:0xb88cb99816a5950b!8m2!3d37.2952211!4d13.4670844!16s%2Fg%2F11c2mpckwy?entry=ttu"
               class="btn-map mt-3"
@@ -149,18 +155,16 @@
       </div>
     </div>
 
-
-
     <!--==============================-->
     <!--===== RECOMENDATION LOCATION =====-->
     <!--==============================-->
-    <section class="container py-0" id="section-4">
+    <div class="container py-0" id="section-2">
       <div class="row">
-        <div class="grid-3 disappear"></div>
-        <div class="grid-6">
-          <h6 class="uppercase color-gradient h7">un peu d'aide pour toi</h6>
-          <div class="">
-            <h3 class="mt-1 color-title-blue">Par quel moyen se rendre en Sicile ?</h3>
+        <div class="grid-2 disappear"></div>
+        <div class="grid-8">
+          <h6 class="uppercase color-gradient2 h7">un peu d'aide pour toi</h6>
+          <div>
+            <h3 class="mt-1 text-center">Par quel moyen se rendre en Sicile ?</h3>
             <div class="flex-start-row mt-4">
               <img
                 src="svg/plane-line.svg"
@@ -194,7 +198,9 @@
               <br />
             </div>
             <p class="p4 text-center">A 2h40 du lieu de réception</p>
-  
+          </div>
+          <div class="mt-3">
+            <h3 class="text-center">Moyen de transport sur place</h3>
             <div class="flex-start-row mt-4">
               <img
                 src="svg/icon-car.svg"
@@ -205,7 +211,6 @@
               <h6 class="">Voiture personnelle ou Voiture de location</h6>
               <br />
             </div>
-            <p class="p4 text-center">Moyen de transport sur place</p>
             <div class="flex-start-row mt-1 center">
               <img
                 src="svg/icon-alert.svg"
@@ -213,31 +218,30 @@
                 alt=""
                 onload="SVGInject(this)"
               />
-              <p class="p4 italic text-center mt-1 color-gray">
+              <p class="p2 mt-1 color-gray">
                 Il est recommandé de ne pas dépendre des transports en commun ou
                 Taxi
               </p>
             </div>
-
           </div>
         </div>
-        <div class="grid-3 disappear"></div>
-      </div>
-    </section>
-
-    <section class="container py-0" id="section-5">
-      <div class="row">
-        <h3 class="mt-3 text-center color-title-blue">Hébergements recommandés</h3>
         <div class="grid-2 disappear"></div>
-        <div class="grid-4">
-          <div class="flex-center-column mt-3">
+      </div>
+    </div>
+
+    <div class="container py-0" id="section-3">
+      <div class="row">
+        <h3 class="mt-3 text-center">Hébergements recommandés</h3>
+        <div class="grid-2 disappear"></div>
+        <div class="grid-4 m-0 p-0">
+          <div class="flex-center-column mt-5">
             <img src="svg/hotel2.png" alt="" class="img-hotel"/>
           <a href="https://www.hoteldellavalleagrigento.it/" target="_blank" class="mt-1">
-            <h5 class="text-center text-underline">Hotel della valle</h5>
+            <h5 class="text-center text-underline">Hotel Della Valle</h5>
           </a>
         </div>
 
-        <div class="flex-center-column mt-3">
+        <div class="flex-center-column mt-5">
             <img src="svg/hotel4.png" alt="" class="img-hotel"/>
           <a href="https://hoteldeipini.org/" target="_blank" class="mt-1">
             <h5 class="text-center text-underline">Hotel Dei Pini</h5>
@@ -245,8 +249,8 @@
         </div>
 
         </div>
-        <div class="grid-4">
-          <div class="flex-center-column mt-3">
+        <div class="grid-4 m-0 p-0">
+          <div class="flex-center-column mt-5">
             <img src="svg/hotel1.png" alt="" class="img-hotel"/>
           <a href="http://scaladeiturchiresort.com/fr/" target="_blank" class="mt-1">
             <h5 class="text-center text-underline">
@@ -254,7 +258,7 @@
             </h5>
           </a>
         </div>
-        <div class="flex-center-column mt-3">
+        <div class="flex-center-column mt-5">
             <img src="svg/hotel3.png" alt="" class="img-hotel"/>
           <a href="https://www.booking.com/hotel/it/case-vacanze-ancora.fr.html?aid=2378099&label=olr%3ACjwKCAjw_Na1BhAlEiwAM-dm7AEhe38AMy86TgXU6Pd08E-HLcDYcOg4fPT59GRtgCOz4aBNCtQvBRoCMFkQAvD_BwE&sid=f95ee925d1ef660205e9eb292bb79d7a&checkin=2024-08-16;checkout=2024-08-17;dest_id=-125538;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1723207980;srpvid=d0ae5a907acb00fc;type=total;ucfs=1&#no_availability_msg" target="_blank" class="mt-1">
             <h5 class="text-center text-underline">Airbnb Case Vacanze</h5>
@@ -263,370 +267,34 @@
         </div>
         <div class="grid-2 disappear"></div>
       </div>
-    </section>
+    </div>
 
     <!--==============================-->
-    <!--===== Thanks and RSVP =====-->
+    <!--===== Thanks and Donate =====-->
     <!--==============================-->
-    <section class="container py-1" id="section-6">
+    <div class="container py-1" id="section-4">
       <div class="row">
-        <div class="grid-3 disappear"></div>
-        <div class="grid-6">
-          <h6 class="uppercase color-gradient h7">merci beaucoup</h6>
-          <h4 class="mt-1 text-center">
-            S’il vous plaît, faites-nous savoir si vous pourrez être présent avant le <br> 31.03.2025
-          </h4>
-          <div class="flex-center">
-            <a class="btn mt-3" type="button" href="/rsvp.html"
-            ><p class="color-white">RSVP</p></a>
-
-          </div>
-        </div>
-        <div class="grid-3 disappear">
-        </div>
-      </div>
-    </section>
-
-    <!--==============================-->
-    <!--===== INVESTIMENTOS =====-->
-    <!--==============================-->
-    <!-- <section class="container" id="section-6">
-      <div class="row">
-        <div class="grid-6">
-          <h6 class="uppercase color-gradient">investments</h6>
-          <h3 class="mt-1">
-            More money in your
-            <span class="color-gradient py-1">wallet</span>
-          </h3>
-
-          <div>
-            <h6 class="color-gray mt-4">
-              To start, which value you would like to invest ?
-            </h6>
-            <div class="flex-space">
-              <h5 class="mt-1 bold">
-                € <span class="money-investment">1000</span>
-              </h5>
-              <div class="flex-start-row">
-                <div class="button-minus flex-center button-minus-money">
-                  <img
-                    src="svg/icon-minus.svg"
-                    class="icon"
-                    alt=""
-                    onload="SVGInject(this)"
-                  />
-                </div>
-                <div class="button-plus flex-center ml-3 button-plus-money">
-                  <img
-                    src="svg/icon-plus.svg"
-                    class="icon"
-                    alt=""
-                    onload="SVGInject(this)"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h6 class="color-gray mt-4">For how long ?</h6>
-            <div class="flex-space">
-              <h5 class="mt-1 bold">
-                <span class="time-investment">12</span> months
-              </h5>
-              <div class="flex-start-row">
-                <div class="button-minus flex-center button-minus-time">
-                  <img
-                    src="svg/icon-minus.svg"
-                    class="icon"
-                    alt=""
-                    onload="SVGInject(this)"
-                  />
-                </div>
-                <div class="button-plus flex-center ml-3 button-plus-time">
-                  <img
-                    src="svg/icon-plus.svg"
-                    class="icon"
-                    alt=""
-                    onload="SVGInject(this)"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grid-1 disappear"></div>
-        <div class="grid-5">
-          <p class="mt-1">
-            Here at Paybank, you invest with at least
-            <b>100% of CDI (13.75%&nbsp;a.a)</b>
-            automatically, here your money yield much more than usual saving
-            account. Put que values and see yourself.
+        <div class="grid-2 disappear"></div>
+        <div class="grid-8 flex-center-column">
+          <h6 class="uppercase color-gradient">merci beaucoup!</h6>
+          <p class="mt-1 text-center">
+            We are beyond grateful to be celebrating our wedding with you. We appreciate you coming from far and wide to be with us this summer. Your attendance is as good a gift as any, but for those who would like, we have thoughtfully put our bank account to help us start this next chapter in our lives.
           </p>
-
-          <div class="bt-gray mt-4">
-            <h6 class="color-gray mt-4">At your wallet you will have</h6>
-            <h2 class="color-gradient my-2">
-              € <span class="result-investment">1137.50</span>
-            </h2>
-            <h6 class="color-gray">in 1 year yielding at Paybank</h6>
-
-            <p class="text-center p5 mt-6" style="max-width: 580px">
-              Values used in the investment simulator (referring to the date
-              last updated - these values may change according to the market):
-              <br />
-              Date of last update: 30/11/2023
-            </p>
+          <div class="mt-3">
+            <p class="text-center"><b>IBAN:</b> <span class="">BE8237 3728 8732</span></p>
+            <p class="text-center mt-1"><b>Name:</b> Christian Pinheiro</p>
           </div>
+        </div>
+        <div class="grid-2 disappear">
         </div>
       </div>
-    </section> -->
-
-    <!--==============================-->
-    <!--===== PAYBANK CARD =====-->
-    <!--==============================-->
-
-    <!-- <section class="container" id="section-7">
-      <div class="row">
-        <div class="grid-6 relative div-card">
-          <div class="card-fig card-verse card-black card-1-scrub">
-            <div class="card-number p-2">
-              <img
-                src="svg/icon-mastercard.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-              <h6 class="color-white h7 text-right mt-1">•••• 4859</h6>
-            </div>
-          </div>
-
-          <div class="card-fig card-front card-2-scrub">
-            <div class="card-logo p-2">
-              <img
-                src="svg/logo-card.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-            <div class="card-contactless p-2">
-              <img
-                src="svg/icon-contactless.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-
-            <div class="card-content-description p-2">
-              <h6 class="color-white h7">WESLLEY D B SANTOS</h6>
-              <img
-                src="svg/icon-mastercard.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="grid-6">
-          <h6 class="uppercase color-gradient">a card to call yours</h6>
-          <h2 class="mt-1">Minimalist. Simple. Efficient</h2>
-          <p class="mt-3">
-            Revid card features an RFID transponder in its core that enables you
-            to pay with a touch-free wave.
-          </p>
-
-          <div class="flex-start-row mt-4 mb-4">
-            <div class="bg-icon">
-              <img
-                src="svg/icon-vip.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-            <div class="ml-2">
-              <h6>Access to VIP lounge</h6>
-              <p>Enjoy the comfort at any airport.</p>
-            </div>
-          </div>
-
-          <div class="flex-start-row mt-4 mb-4">
-            <div class="bg-icon">
-              <img
-                src="svg/icon-card.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-            <div class="ml-2">
-              <h6>Virtual Card</h6>
-              <p>
-                More safety and pratical, use your virtual card for online
-                shopping.
-              </p>
-            </div>
-          </div>
-
-          <div class="flex-start-row mt-4 mb-4">
-            <div class="bg-icon">
-              <img
-                src="svg/icon-download.svg"
-                class="icon"
-                alt=""
-                onload="SVGInject(this)"
-              />
-            </div>
-            <div class="ml-2">
-              <h6>Create a deposit</h6>
-              <p>Save your money monthly without any concern.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!--==============================-->
-    <!--===== Everything you need =====-->
-    <!--==============================-->
-
-    <!-- <div class="bg-black-light relative hidden">
-      <div class="bg-cta">
-        <img src="svg/bg-hero.svg" alt="" onload="SVGInject(this)" />
-      </div>
-
-      <section class="container" id="section-8">
-        <div class="row text-cta">
-          <div class="grid-2"></div>
-          <div class="grid-8 flex-center flex-column">
-            <h6 class="uppercase color-gradient text-center">paybank</h6>
-            <h2 class="mt-1 color-white text-center">
-              Everything you need in only one place
-            </h2>
-            <p class="mt-3 text-center">
-              We plant a tree for everyone who pre-register and every new
-              customer. And we're planning to plant millions.
-            </p>
-
-            <a href="#" class="btn mt-4">Join us</a>
-          </div>
-          <div class="grid-2"></div>
-        </div>
-      </section>
-    </div> -->
-
+    </div>
     <!--==============================-->
     <!--========== FOOTER ============-->
     <!--==============================-->
-    <!-- <footer class="mt-4">
-      <div class="row bb-gray">
-        <div class="grid-4 flex-start-row">
-          <img
-            src="svg/logo-paybank.svg"
-            class="icon"
-            alt=""
-            onload="SVGInject(this)"
-          />
-          <h6 class="ml-1">Paybank.</h6>
-        </div>
-        <div class="grid-4">
-          <h5>Be the first to hearour sight banking news</h5>
-        </div>
-        <div class="grid-4 flex-start-row">
-          <input type="text" placeholder="Type here your email" />
-          <button class="btn-send flex-center ml-2">
-            <img
-              src="svg/icon-send.svg"
-              class="icon-s"
-              alt=""
-              onload="SVGInject(this)"
-            />
-          </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-3">
-          <h5>Stay connect with anyone & anywhere</h5>
-        </div>
-        <div class="grid-5 flex-center mt-3">
-          <a href="#" class="mx-1 bg-social-networks">
-            <img
-              src="svg/icon-facebook.svg"
-              class="icon w-auto"
-              alt=""
-              onload="SVGInject(this)"
-            />
-          </a>
-          <a href="#" class="mx-1 bg-social-networks">
-            <img
-              src="svg/icon-instagram.svg"
-              class="icon w-auto"
-              alt=""
-              onload="SVGInject(this)"
-            />
-          </a>
-          <a href="#" class="mx-1 bg-social-networks">
-            <img
-              src="svg/icon-twitter.svg"
-              class="icon w-auto"
-              alt=""
-              onload="SVGInject(this)"
-            />
-          </a>
-          <a href="#" class="mx-1 bg-social-networks">
-            <img
-              src="svg/icon-youtube.svg"
-              class="icon w-auto"
-              alt=""
-              onload="SVGInject(this)"
-            />
-          </a>
-        </div>
-        <div class="grid-4">
-          <div class="flex-start-row">
-            <a href="#" class="btn-white flex-start-row">
-              <img
-                src="svg/icon-apple.svg"
-                class="icon fill-svg-green"
-                alt=""
-                onload="SVGInject(this)"
-              />
-              <h6 class="h7 ml-1">Apple&nbsp;Pay</h6>
-            </a>
-            <a href="#" class="btn-white flex-start-row ml-2">
-              <img
-                src="svg/icon-googleplay.svg"
-                class="icon fill-svg-green"
-                alt=""
-                onload="SVGInject(this)"
-              />
-              <h6 class="h7 ml-1">Google&nbsp;Pay</h6>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="grid-3 py-0">
-          <p class="text-center">© 2022 PayBank.com</p>
-        </div>
-        <div class="grid-3 py-0 disappear"></div>
-        <div class="grid-3 py-0 disappear"></div>
-        <div class="grid-3 py-0 flex-center">
-          <p>Powered by Weslley Botelho:</p>
-          <a href="#" class="ml-1" target="_blank">
-            <img
-              src="svg/icon-vip.svg"
-              class="icon"
-              alt=""
-              onload="SVGInject(this)"
-            />
-          </a>
-        </div>
-      </div>
-    </footer> -->
+    <footer class="mt-4" id="section-5">
+      <img src="svg/footer.png" alt="">
+    </footer>
 
     <!--=============================-->
     <!--============ JS ============-->

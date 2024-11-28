@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kings&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -17,19 +18,12 @@
 }
 
 .color-primary {
-  color: #65744d;
+  color: #01165e;
 }
 
 .color-gradient {
   display: inline-block;
-  background: linear-gradient(224.78deg, #65744d 8.12%, #a9c96b 92.21%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.color-gradient {
-  display: inline-block;
-  background: linear-gradient(224.78deg, #65744d 8.12%, #a9c96b 92.21%);
+  background: linear-gradient(224.78deg, #011043 8.12%, #021f7d 92.21%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -42,11 +36,11 @@
 }
 
 .bg-gradient {
-  background: linear-gradient(224.78deg, #515d3d 8.12%, #a9c96b 92.21%);
+  background: linear-gradient(224.78deg, #011043 8.12%, #a9c96b 92.21%);
 }
 
 .label {
-  background: linear-gradient(224.78deg, #65744d 8.12%, #a9c96b 92.21%);
+  background: linear-gradient(224.78deg, #01165e 8.12%, #a9c96b 92.21%);
   display: inline-block;
   padding: 3px 8px;
   border-radius: 2px;
@@ -58,7 +52,7 @@
 }
 
 .color-gray {
-  color: #646465;
+  color: #252626;
 }
 
 .color-red {
@@ -519,7 +513,7 @@
 }
 
 .bt-primary {
-  border-top: 2px solid #849170;
+  border-top: 2px solid #021f7d;
 }
 
 .bl-gray {
@@ -642,7 +636,7 @@
   transition: 1s ease;
 }
 .profile:hover {
-  border: 3px solid #65744d;
+  border: 3px solid #01165e;
 }
 
 .div-logo-hero {
@@ -1310,13 +1304,12 @@
   transition: 0.5s ease;
 }
 .bg-icon-active path {
-  fill: #515d3d;
+  fill: #011043;
 }
 
 footer {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 8px;
 }
 
 .div-background {
@@ -1797,7 +1790,7 @@ footer {
   right: -70%;
   width: 64px;
   height: 2px;
-  background-color: #65744d;
+  background-color: #01165e;
 }
 
 .text-click {
@@ -2520,7 +2513,7 @@ footer {
 }
 
 .h0 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2529,7 +2522,7 @@ footer {
 }
 @media screen and (max-width: 960px) {
   .h0 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2539,7 +2532,7 @@ footer {
 }
 @media screen and (max-width: 340px) {
   .h0 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 24px;
     line-height: 120%;
@@ -2548,10 +2541,34 @@ footer {
   }
 }
 
+.nomes {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kings-regular {
+  font-family: "Kings", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 h1 {
-  color: #1a1c15;
+  color: #01165e;
   z-index: 5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 72px;
   line-height: 110%;
@@ -2559,7 +2576,7 @@ h1 {
 }
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 52px;
     line-height: 110%;
@@ -2568,7 +2585,7 @@ h1 {
 }
 @media screen and (max-width: 340px) {
   h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 48px;
     line-height: 120%;
@@ -2577,8 +2594,8 @@ h1 {
 }
 
 h2 {
-  color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  color: #01165e;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 64px;
   line-height: 110%;
@@ -2586,7 +2603,7 @@ h2 {
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2595,7 +2612,7 @@ h2 {
 }
 @media screen and (max-width: 340px) {
   h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 36px;
     line-height: 120%;
@@ -2604,8 +2621,8 @@ h2 {
 }
 
 h3 {
-  color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  color: #01165e;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 120%;
@@ -2613,7 +2630,7 @@ h3 {
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 32px;
     line-height: 120%;
@@ -2622,7 +2639,7 @@ h3 {
 }
 @media screen and (max-width: 340px) {
   h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 28px;
     line-height: 130%;
@@ -2631,8 +2648,8 @@ h3 {
 }
 
 h4 {
-  color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  color: #01165e;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 32px;
   line-height: 120%;
@@ -2640,7 +2657,7 @@ h4 {
 }
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 28px;
     line-height: 130%;
@@ -2649,7 +2666,7 @@ h4 {
 }
 @media screen and (max-width: 340px) {
   h4 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 140%;
@@ -2658,8 +2675,8 @@ h4 {
 }
 
 h5 {
-  color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  color: #353536;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 24px;
   line-height: 140%;
@@ -2667,7 +2684,7 @@ h5 {
 }
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 140%;
@@ -2676,8 +2693,8 @@ h5 {
 }
 
 h6 {
-  color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  color: #021f7d;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
@@ -2685,7 +2702,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -2694,7 +2711,7 @@ h6 {
 }
 
 .h7 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -2702,7 +2719,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   .h7 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -2712,15 +2729,15 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: #7c7c7d;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
-  line-height: 26px;
+  color: #252626;
+  font-family: "Cormorant", serif;
+  font-size: 26px;
+  line-height: 30px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   p {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
@@ -2728,10 +2745,7 @@ p {
 }
 @media screen and (max-width: 340px) {
   p {
-    font-family: "Red Hat Display", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 300;
+    font-family: "Cormorant", serif;
   }
 }
 
@@ -2742,14 +2756,14 @@ p {
 }
 
 .p1 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 26px;
   line-height: 30px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p1 {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 22px;
     line-height: 30px;
     font-weight: 300;
@@ -2757,7 +2771,7 @@ p {
 }
 @media screen and (max-width: 340px) {
   .p1 {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 300;
@@ -2765,14 +2779,14 @@ p {
 }
 
 .p2 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p2 {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
@@ -2780,14 +2794,14 @@ p {
 }
 
 .p3 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p3 {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
@@ -2795,14 +2809,14 @@ p {
 }
 
 .p4 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p4 {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 300;
@@ -2810,14 +2824,14 @@ p {
 }
 
 .p5 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .p5 {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 12px;
     line-height: 20px;
     font-weight: 300;
@@ -2846,7 +2860,7 @@ span {
   color: #1a1c15;
   letter-spacing: 1px;
   text-transform: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 72px;
   line-height: 110%;
@@ -2854,7 +2868,7 @@ span {
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 52px;
     line-height: 110%;
@@ -2864,14 +2878,14 @@ span {
 
 strong {
   color: #1a1c15;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   strong {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
@@ -2896,7 +2910,7 @@ b {
 
 .h-xl {
   color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2905,7 +2919,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-xl {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2916,7 +2930,7 @@ b {
 
 .h-l {
   color: #1a1c15;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2925,7 +2939,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .h-l {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 120%;
@@ -2935,7 +2949,7 @@ b {
 }
 
 .hbig {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 80px;
   line-height: 120%;
@@ -2943,7 +2957,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .hbig {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 56px;
     line-height: 120%;
@@ -3120,10 +3134,10 @@ nav {
   transition: 0.6s ease;
   padding: 18px 80px 18px 64px;
   text-align: center;
-  background: linear-gradient(225deg, #849170 8.12%, #515d3d 92.21%);
+  background: linear-gradient(225deg, #021f7d 8.12%, #011043 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 56px rgba(92, 118, 46, 0.4);
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3133,7 +3147,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3178,10 +3192,10 @@ nav {
   transition: 0.6s ease;
   padding: 18px 80px 18px 64px;
   text-align: center;
-  background: linear-gradient(225deg, #849170 8.12%, #515d3d 92.21%);
+  background: linear-gradient(225deg, #021f7d 8.12%, #011043 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 56px rgba(92, 118, 46, 0.4);
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3191,7 +3205,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-map {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3240,7 +3254,7 @@ nav {
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   border-radius: 2px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3250,7 +3264,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-address {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3300,10 +3314,10 @@ nav {
   transition: 0.6s ease;
   padding: 12px 28px 12px 28px;
   text-align: center;
-  background: linear-gradient(225deg, #65744d 8.12%, #a9c96b 92.21%);
+  background: linear-gradient(225deg, #01165e 8.12%, #a9c96b 92.21%);
   border-radius: 10px;
   box-shadow: 0px 7px 32px rgba(92, 118, 46, 0.6);
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3312,7 +3326,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-small {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3330,7 +3344,7 @@ nav {
   background: transparent;
   border: 2px solid #2f3329;
   border-radius: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3338,7 +3352,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-secondary {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3356,12 +3370,12 @@ nav {
 
 .btn-freq {
   display: inline-block;
-  background: linear-gradient(225deg, #65744d 8.12%, #a9c96b 92.21%);
+  background: linear-gradient(225deg, #01165e 8.12%, #a9c96b 92.21%);
   padding: 16px 64px 16px 24px;
   border-radius: 8px;
   transform: skew(-10deg);
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 150%;
@@ -3369,7 +3383,7 @@ nav {
 }
 @media screen and (max-width: 960px) {
   .btn-freq {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3417,7 +3431,7 @@ nav {
 
 .btn-primary {
   color: #1a1c15;
-  background-color: #849170;
+  background-color: #021f7d;
   padding: 12px 24px;
   border-radius: 8px;
   transition: 0.5s ease;
@@ -3427,11 +3441,11 @@ nav {
 }
 
 .fill-svg-green path {
-  fill: #849170;
+  fill: #021f7d;
 }
 
 a {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -3463,7 +3477,7 @@ a:hover {
 
 .link {
   color: #fbfff5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
@@ -3476,7 +3490,7 @@ a:hover {
 }
 @media screen and (max-width: 960px) {
   .link {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -3514,13 +3528,13 @@ a:hover {
 .btn-send {
   width: 52px;
   height: 52px;
-  background: linear-gradient(217.08deg, #a9c96b 2.12%, #515d3d 98.96%);
+  background: linear-gradient(217.08deg, #a9c96b 2.12%, #011043 98.96%);
   border: 0;
   border-radius: 8px;
 }
 
 input {
-  accent-color: #65744d;
+  accent-color: #01165e;
 }
 
 /*
@@ -3540,11 +3554,11 @@ option,
 textarea {
   padding: 12px 16px;
   background-color: #fbfff5;
-  border: 2px solid #849170;
+  border: 2px solid #021f7d;
   border-radius: 12px;
   color: #2f3329;
   width: 100%;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -3952,7 +3966,7 @@ select{
   border-bottom: 2px solid #1a1c15;
   transition: 0.7s ease;
   color: #f2f7e9;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
@@ -3960,7 +3974,7 @@ select{
 }
 @media screen and (max-width: 960px) {
   .accordion-button {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -4021,7 +4035,7 @@ select{
   list-style: none;
 }
 .list li {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -4033,7 +4047,7 @@ select{
 }
 @media screen and (max-width: 960px) {
   .list li {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
@@ -4059,7 +4073,7 @@ select{
   list-style: none;
 }
 .list2 li {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
@@ -4071,7 +4085,7 @@ select{
 }
 @media screen and (max-width: 960px) {
   .list2 li {
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Cormorant", serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;

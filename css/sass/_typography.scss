@@ -4,9 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kings&display=swap");
 // @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 @mixin typeface-1($size, $device: desktop) {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   // font-family: "Italiana", sans-serif;
 
@@ -114,7 +115,7 @@
 }
 
 @mixin typeface-2($size: p2, $device: desktop) {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Cormorant", serif;
 
   @if $size == p1 and $device == desktop {
     font-size: 26px;
@@ -182,8 +183,38 @@
   }
 }
 
+.nomes {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kings-regular {
+  font-family: "Kings", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 h1 {
-  color: $black-light;
+  color: $primary-normal;
   z-index: 5;
   @include typeface-1(h1, desktop);
   @include responsive(s) {
@@ -195,7 +226,7 @@ h1 {
 }
 
 h2 {
-  color: $black-light;
+  color: $primary-normal;
   @include typeface-1(h2, desktop);
   @include responsive(s) {
     @include typeface-1(h2, mobile);
@@ -206,7 +237,7 @@ h2 {
 }
 
 h3 {
-  color: $black-light;
+  color: $primary-normal;
   @include typeface-1(h3, desktop);
   @include responsive(s) {
     @include typeface-1(h3, mobile);
@@ -217,7 +248,7 @@ h3 {
 }
 
 h4 {
-  color: $black-light;
+  color: $primary-normal;
   @include typeface-1(h4, desktop);
   @include responsive(s) {
     @include typeface-1(h4, mobile);
@@ -228,7 +259,7 @@ h4 {
 }
 
 h5 {
-  color: $black-light;
+  color: $gray-2;
   @include typeface-1(h5, desktop);
   @include responsive(s) {
     @include typeface-1(h5, mobile);
@@ -236,7 +267,7 @@ h5 {
 }
 
 h6 {
-  color: $black-light;
+  color: $primary-light;
 
   @include typeface-1(h6, desktop);
   @include responsive(s) {
@@ -253,13 +284,13 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: $gray-5;
-  @include typeface-2(p3, desktop);
+  color: $gray-1;
+  @include typeface-2(p1, desktop);
   @include responsive(s) {
-    @include typeface-2(p3, mobile);
+    @include typeface-2(p2, mobile);
   }
   @include responsive(xs) {
-    @include typeface-2(p3, smallmobile);
+    @include typeface-2(p2, smallmobile);
   }
 }
 
