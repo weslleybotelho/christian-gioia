@@ -1,23 +1,49 @@
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 
-function scrollHeader() {
-  const nav = document.querySelector("header");
-  const linksMenu = document.querySelectorAll(".link-menu");
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  // effect: "flip",
+  // flipEffect: {
+  //   slideShadows: false,
+  // },
 
-  if (this.scrollY >= 1000) nav.classList.add("active-header");
-  else nav.classList.remove("active-header");
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
 
-  linksMenu.forEach((link) => {
-    if (this.scrollY >= 1000) link.classList.add("link-black");
-    else link.classList.remove("link-black");
-  });
-}
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 
-window.addEventListener("scroll", scrollHeader);
+  // And if we need scrollbar
+  // scrollbar: {
+  //   el: ".swiper-scrollbar",
+  // },
+});
+
+// function scrollHeader() {
+//   const nav = document.querySelector("header");
+//   const linksMenu = document.querySelectorAll(".link-menu");
+
+//   if (this.scrollY >= 1000) nav.classList.add("active-header");
+//   else nav.classList.remove("active-header");
+
+//   linksMenu.forEach((link) => {
+//     if (this.scrollY >= 1000) link.classList.add("link-black");
+//     else link.classList.remove("link-black");
+//   });
+// }
+
+// window.addEventListener("scroll", scrollHeader);
 
 /*--=========== GSAP SCROLLTRIGGER ============- */
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", () => {
   var tl1 = gsap.timeline();
@@ -34,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         duration: 3,
         opacity: 0,
-        x: 300,
+        // y: 200,
         stagger: { each: 0.1 },
         ease: "power4.out",
       },
@@ -120,6 +146,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-ScrollTrigger.addEventListener("scrollStart", () => {
-  ScrollTrigger.refresh();
-});
+// ScrollTrigger.addEventListener("scrollStart", () => {
+//   ScrollTrigger.refresh();
+// });

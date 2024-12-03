@@ -16,6 +16,10 @@
     <!--============ CSS ============-->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="svg/bg-top.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <!--============ Primary Meta Tags ============-->
     <title>Christian & Gioia</title>
@@ -43,9 +47,9 @@
         window.scrollTo(0, 0);
       };
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
-
     <!--========================================-->
     <!--============ SCREEN LOADING ============-->
     <!--========================================-->
@@ -71,14 +75,13 @@
       </div> -->
 
       <div class="bg-hero" style="z-index: -100">
-        <img src="svg/background-home.jpeg" alt="" class="img-hero"/>
+        <img src="svg/background-home.jpeg" alt="" class="img-hero" />
       </div>
 
       <div class="container pb-0 hero pt-1">
         <div class="row">
           <div class="grid-3 disappear"></div>
-          <div class="grid-6" style="transform: translate(25%, -15%);">
-          </div>
+          <div class="grid-6" style="transform: translate(25%, -15%)"></div>
           <div class="grid-3 disappear"></div>
         </div>
       </div>
@@ -90,20 +93,20 @@
           <div class="grid-3 disappear"></div>
           <div class="grid-6 mt-0">
             <p class="text-center">ENSEMBLE AVEC LEUR FAMILLE</p>
-              <h1  class="text-center nomes mt-2">
-                Gioia <br> & <br />
-                Christian
-              </h1>
-              <p class="text-center mt-2">VOUS INVITENT À LEUR MARIAGE LE</p>
-              <div class="flex-center mt-3">
-                <h3 class="inter">JEUDI</h3>
-                <div class="px-3 flex-center-column">
-                  <h3 class="kings-regular">31</h3>
-                  <p class="cormorant">JUILLET</p>
-                </div>
-                <h3 class="inter">2025</h3>
+            <h1 class="text-center nomes mt-2">
+              Gioia <br />
+              & <br />
+              Christian
+            </h1>
+            <p class="text-center mt-2">VOUS INVITENT À LEUR MARIAGE LE</p>
+            <div class="flex-center mt-3">
+              <h3 class="inter">JEUDI</h3>
+              <div class="px-3 flex-center-column">
+                <h3 class="kings-regular">31</h3>
+                <p class="cormorant">JUILLET</p>
               </div>
-
+              <h3 class="inter">2025</h3>
+            </div>
           </div>
           <div class="grid-3 disappear"></div>
         </div>
@@ -113,13 +116,16 @@
     <!--==============================-->
     <!--============ TIMMING AND LOCATION ============-->
     <!--==============================-->
-    <div class="relative hidden py-0" >
+    <div class="relative hidden py-0">
       <div class="container py-0" id="section-1">
         <div class="row">
           <div class="grid-2 disappear"></div>
           <div class="grid-8 bt-gray">
             <p class="mt-3 px-1 p1 text-center">
-              C’est avec une immense joie que nous vous invitons à notre mariage qui se déroulera en Sicile le 31 juillet 2025. Quand le Brésil et la Sicile se rencontrent, il était impossible de ne pas choisir un lieu où la chaleur et le soleil sont également au rendez-vous.
+              C’est avec une immense joie que nous vous invitons à notre mariage
+              qui se déroulera en Sicile le 31 juillet 2025. Quand le Brésil et
+              la Sicile se rencontrent, il était impossible de ne pas choisir un
+              lieu où la chaleur et le soleil sont également au rendez-vous.
             </p>
             <!-- <h6 class="text-center color-black">Ci-dessous, vous trouverez toutes les informations nécessaires afin de vous organiser au mieux pour être présent au mariage.</h6> -->
           </div>
@@ -128,7 +134,6 @@
         <div class="row">
           <div class="grid-3 disappear"></div>
           <div class="grid-3 flex-center-column">
-   
             <h4 class="uppercase text-center mt-2">Horaire</h4>
             <h4 class="mt-2 nomes">15H30</h4>
             <h5>Cérémonie</h5>
@@ -147,7 +152,6 @@
               target="_blank"
               ><p class="color-white">CARTE</p></a
             >
-            
           </div>
 
           <div class="grid-2 disappear"></div>
@@ -164,7 +168,9 @@
         <div class="grid-8">
           <h6 class="uppercase color-gradient2 h7">un peu d'aide pour toi</h6>
           <div>
-            <h3 class="mt-1 text-center">Par quel moyen se rendre en Sicile ?</h3>
+            <h3 class="mt-1 text-center">
+              Par quel moyen se rendre en Sicile ?
+            </h3>
             <div class="flex-start-row mt-4">
               <img
                 src="svg/plane-line.svg"
@@ -229,42 +235,79 @@
       </div>
     </div>
 
-    <div class="container py-0" id="section-3">
-      <div class="row">
-        <h3 class="mt-3 text-center">Hébergements recommandés</h3>
+    <!--==============================-->
+    <!--===== RECOMENDATION HOTELS =====-->
+    <!--==============================-->
+    <div class="container p-0" id="section-3">
+      <div class="row flex-center-column">
         <div class="grid-2 disappear"></div>
-        <div class="grid-4 m-0 p-0">
-          <div class="flex-center-column mt-5">
-            <img src="svg/hotel2.png" alt="" class="img-hotel"/>
-          <a href="https://www.hoteldellavalleagrigento.it/" target="_blank" class="mt-1">
-            <h5 class="text-center text-underline">Hotel Della Valle</h5>
-          </a>
-        </div>
+        <div class="grid-8 m-0 p-0">
+          <h3 class="mt-3 text-center">Hébergements recommandés</h3>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="flex-center-column mt-5">
+                  <img src="svg/hotel2.png" alt="" class="img-hotel" />
+                  <a
+                    href="https://www.hoteldellavalleagrigento.it/"
+                    target="_blank"
+                    class="mt-1"
+                  >
+                    <h5 class="text-center text-underline">
+                      Hotel Della Valle
+                    </h5>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex-center-column mt-5">
+                  <img src="svg/hotel4.png" alt="" class="img-hotel" />
+                  <a
+                    href="https://hoteldeipini.org/"
+                    target="_blank"
+                    class="mt-1"
+                  >
+                    <h5 class="text-center text-underline">Hotel Dei Pini</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex-center-column mt-5">
+                  <img src="svg/hotel1.png" alt="" class="img-hotel" />
+                  <a
+                    href="http://scaladeiturchiresort.com/fr/"
+                    target="_blank"
+                    class="mt-1"
+                  >
+                    <h5 class="text-center text-underline">
+                      Hotel Scala Dei Turchi Resort
+                    </h5>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="flex-center-column mt-5">
+                  <img src="svg/hotel3.png" alt="" class="img-hotel"/>
+                <a href="https://www.booking.com/hotel/it/case-vacanze-ancora.fr.html?aid=2378099&label=olr%3ACjwKCAjw_Na1BhAlEiwAM-dm7AEhe38AMy86TgXU6Pd08E-HLcDYcOg4fPT59GRtgCOz4aBNCtQvBRoCMFkQAvD_BwE&sid=f95ee925d1ef660205e9eb292bb79d7a&checkin=2024-08-16;checkout=2024-08-17;dest_id=-125538;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1723207980;srpvid=d0ae5a907acb00fc;type=total;ucfs=1&#no_availability_msg" target="_blank" class="mt-1">
+                  <h5 class="text-center text-underline">Airbnb Case Vacanze</h5>
+                </a>
+              </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
-        <div class="flex-center-column mt-5">
-            <img src="svg/hotel4.png" alt="" class="img-hotel"/>
-          <a href="https://hoteldeipini.org/" target="_blank" class="mt-1">
-            <h5 class="text-center text-underline">Hotel Dei Pini</h5>
-          </a>
-        </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
         </div>
-        <div class="grid-4 m-0 p-0">
-          <div class="flex-center-column mt-5">
-            <img src="svg/hotel1.png" alt="" class="img-hotel"/>
-          <a href="http://scaladeiturchiresort.com/fr/" target="_blank" class="mt-1">
-            <h5 class="text-center text-underline">
-              Hotel Scala Dei Turchi Resort
-            </h5>
-          </a>
-        </div>
-        <div class="flex-center-column mt-5">
-            <img src="svg/hotel3.png" alt="" class="img-hotel"/>
-          <a href="https://www.booking.com/hotel/it/case-vacanze-ancora.fr.html?aid=2378099&label=olr%3ACjwKCAjw_Na1BhAlEiwAM-dm7AEhe38AMy86TgXU6Pd08E-HLcDYcOg4fPT59GRtgCOz4aBNCtQvBRoCMFkQAvD_BwE&sid=f95ee925d1ef660205e9eb292bb79d7a&checkin=2024-08-16;checkout=2024-08-17;dest_id=-125538;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;soh=1;sr_order=popularity;srepoch=1723207980;srpvid=d0ae5a907acb00fc;type=total;ucfs=1&#no_availability_msg" target="_blank" class="mt-1">
-            <h5 class="text-center text-underline">Airbnb Case Vacanze</h5>
-          </a>
-        </div>
-        </div>
+        
         <div class="grid-2 disappear"></div>
       </div>
     </div>
@@ -278,22 +321,27 @@
         <div class="grid-8 flex-center-column">
           <h6 class="uppercase color-gradient">merci beaucoup!</h6>
           <p class="mt-1 text-center">
-            We are beyond grateful to be celebrating our wedding with you. We appreciate you coming from far and wide to be with us this summer. Your attendance is as good a gift as any, but for those who would like, we have thoughtfully put our bank account to help us start this next chapter in our lives.
+            We are beyond grateful to be celebrating our wedding with you. We
+            appreciate you coming from far and wide to be with us this summer.
+            Your attendance is as good a gift as any, but for those who would
+            like, we have thoughtfully put our bank account to help us start
+            this next chapter in our lives.
           </p>
           <div class="mt-3">
-            <p class="text-center"><b>IBAN:</b> <span class="">BE8237 3728 8732</span></p>
+            <p class="text-center">
+              <b>IBAN:</b> <span class="">BE8237 3728 8732</span>
+            </p>
             <p class="text-center mt-1"><b>Name:</b> Christian Pinheiro</p>
           </div>
         </div>
-        <div class="grid-2 disappear">
-        </div>
+        <div class="grid-2 disappear"></div>
       </div>
     </div>
     <!--==============================-->
     <!--========== FOOTER ============-->
     <!--==============================-->
     <footer class="mt-4" id="section-5">
-      <img src="svg/footer.png" alt="">
+      <img src="svg/footer.png" alt="" />
     </footer>
 
     <!--=============================-->

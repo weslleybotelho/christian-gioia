@@ -312,10 +312,10 @@ $gutter: 32px;
   width: 100%;
   object-fit: cover;
   height: 100vh;
-  transform: translate(-0%, -10%);
+  transform: translate(-0%, -20%);
 
   @include responsive(s) {
-    transform: translate(-0%, -20%);
+    transform: translate(-0%, -30%);
   }
 }
 
@@ -1858,4 +1858,9 @@ footer {
   max-height: 250px;
   border: 4px;
   border-radius: 6px;
+}
+
+.swiper {
+  max-width: 600px;
+  height: 400px;
 }
