@@ -312,7 +312,7 @@ $gutter: 32px;
   width: 100%;
   object-fit: cover;
   height: 100vh;
-  transform: translate(-0%, -20%);
+  // transform: translate(-0%, -20%);
 
   @include responsive(s) {
     transform: translate(-0%, -30%);
